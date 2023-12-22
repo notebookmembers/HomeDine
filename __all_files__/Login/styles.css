@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swp");
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bg_img {
+  height: 100vh;
+  width: 100vw;
+  background: url(../../assets/sign_up_bg_img.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+  position: relative;
+}
+
+.outer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+}
+.inner {
+  display: flex;
+  background-color: #fff;
+  border-radius: 12px;
+  height: 80vh;
+  width: 80vw;
+}
+
+.inner .signup_img {
+  height: 80vh;
+  width: 40vw;
+  background-image: url("../../assets/sign_up_bg_img.png");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: right;
+  object-fit: cover;
+}
+.inner .signup_info {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner .signup_info form {
+  height: 90%;
+  width: 80%;
+}
+.inner .signup_info .hd_name {
+  font-family: Pacifico;
+  font-size: 2.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.inner .signup_info .hd_name span {
+  color: #ffbd00;
+}
+
+.sign_info_details .get_srted {
+  font-size: 1.5rem;
+  font-family: Palanquin;
+}
+.sign_info_details input {
+  height: 20px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.sign_details * {
+  margin: 5px 0;
+}
+.sign_details label {
+  font-size: 1rem;
+  font-family: Palanquin;
+}
+.show_pass {
+  display: flex;
+  align-items: center;
+}
+.show_pass input {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.show_pass label {
+  width: 100%;
+}
+
+.submit {
+  text-align: center;
+}
+.submit input {
+  height: 6vh;
+  width: 50%;
+  border-radius: 5px;
+  padding: 0;
+
+  background: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+.submit input:hover {
+  background: #ff6b00;
+  color: #fff;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.have_an_acc p {
+  font-family: Palanquin;
+  font-size: 1rem;
+  text-align: center;
+}
+.have_an_acc p a {
+  color: #ff6b00;
+}
+
+@media only screen and (max-width: 600px) {
+  .inner .signup_img {
+    display: none;
+  }
+  .bg_img {
+    background-position: center;
+  }
+  .inner {
+    height: 70vh;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner .signup_info {
+    width: 90vw;
+  }
+  .inner .signup_info .hd_name {
+    font-size: 1.7rem;
+  }
+  .sign_info_details .get_srted {
+    font-size: 1rem;
+  }
+  .submit input {
+    font-size: 1.3rem;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .inner {
+    height: 80vh;
+    width: 70vw;
+  }
+
+  .inner .signup_info {
+    width: 50vw;
+  }
+
+  .inner .signup_info .hd_name {
+    font-size: 2.5rem;
+  }
+
+  .sign_info_details .get_srted {
+    font-size: 2rem;
+  }
+
+  .submit input {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .inner {
+    height: 80vh;
+    width: 60vw;
+  }
+
+  .inner .signup_info {
+    width: 40vw;
+  }
+
+  .inner .signup_info .hd_name {
+    font-size: 2.5rem;
+  }
+
+  .sign_info_details .get_srted {
+    font-size: 1.5rem;
+  }
+
+  .submit input {
+    font-size: 1.8rem;
+  }
+}
