@@ -54,7 +54,6 @@ a {
   align-items: center;
 }
 .inner .signup_info form {
-  height: 90%;
   width: 80%;
 }
 .inner .signup_info .hd_name {
@@ -128,8 +127,8 @@ a {
 .have_an_acc p a {
   color: #ff6b00;
 }
-
 @media only screen and (max-width: 600px) {
+  /* Styles for phones */
   .inner .signup_img {
     display: none;
   }
@@ -155,47 +154,18 @@ a {
     font-size: 1.3rem;
   }
 }
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  .inner {
-    height: 80vh;
-    width: 70vw;
-  }
 
-  .inner .signup_info {
-    width: 50vw;
-  }
-
-  .inner .signup_info .hd_name {
-    font-size: 2.5rem;
-  }
-
-  .sign_info_details .get_srted {
-    font-size: 2rem;
-  }
-
-  .submit input {
-    font-size: 1.5rem;
-  }
-}
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
   .inner {
     height: 80vh;
-    width: 60vw;
+    width: 100vw;
   }
+}
 
-  .inner .signup_info {
-    width: 40vw;
-  }
-
-  .inner .signup_info .hd_name {
-    font-size: 2.5rem;
-  }
-
-  .sign_info_details .get_srted {
-    font-size: 1.5rem;
-  }
-
-  .submit input {
-    font-size: 1.8rem;
+/* Add styles for tablets (portrait and landscape) */
+@media only screen and (min-width: 601px) and (max-width: 1600px) {
+  .inner {
+    height: 80vh;
+    width: 70vw;
   }
 }

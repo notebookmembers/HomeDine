@@ -1,7 +1,12 @@
 import React from "react";
+import Signup from "../components/Signup/Signup";
 
 function App() {
-  return <h1>Hi welcome</h1>;
+  return (
+    <div>
+      <Signup />
+    </div>
+  );
 }
 
 export default App;
