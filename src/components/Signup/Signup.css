@@ -31,14 +31,14 @@ a {
 }
 .inner {
   display: flex;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 12px;
-  height: 80vh;
+  height: 90vh;
   width: 80vw;
 }
 
 .inner .signup_img {
-  height: 80vh;
+  height: 90vh;
   width: 40vw;
   background-image: url(../../../public/assets/sign_up_bg_img.png);
   background-repeat: no-repeat;
@@ -47,6 +47,16 @@ a {
   background-position: right;
   object-fit: cover;
 }
+
+.btn-tag {
+  height: 35px;
+  width: 90%;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
 .inner .signup_info {
   width: 40vw;
   display: flex;
@@ -58,7 +68,7 @@ a {
 }
 .inner .signup_info .hd_name {
   font-family: Pacifico;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   font-weight: 400;
   letter-spacing: 2px;
   text-align: center;
@@ -68,9 +78,24 @@ a {
 }
 
 .sign_info_details .get_srted {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: Palanquin;
 }
+
+.wid {
+  width: 100%;
+}
+
+.google {
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.fb {
+  background-color: #1877f2;
+  border: 1px solid #000;
+  color: #fff;
+}
+
 .sign_info_details input {
   height: 20px;
   width: 90%;
@@ -90,13 +115,14 @@ a {
   align-items: center;
 }
 .show_pass input {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
   margin-right: 10px;
   cursor: pointer;
 }
 .show_pass label {
   width: 100%;
+  font-size: 0.8rem;
 }
 
 .submit {
@@ -108,7 +134,7 @@ a {
   border-radius: 5px;
   padding: 0;
 
-  background: #fff;
+  background: #ffffff;
   cursor: pointer;
   font-size: 1.5rem;
   color: #ff6b00;
@@ -116,7 +142,7 @@ a {
 }
 .submit input:hover {
   background: #ff6b00;
-  color: #fff;
+  color: #ffffff;
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.3);
 }
 .have_an_acc p {
@@ -165,7 +191,7 @@ a {
 /* Add styles for tablets (portrait and landscape) */
 @media only screen and (min-width: 601px) and (max-width: 1600px) {
   .inner {
-    height: 80vh;
+    height: 90vh;
     width: 70vw;
   }
 }

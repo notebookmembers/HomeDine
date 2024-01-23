@@ -4,18 +4,28 @@ import Input from "../Input";
 function Signup() {
   return (
     <div>
-      <div class="bg_img"></div>
-      <div class="outer">
-        <div class="inner">
-          <div class="signup_img"></div>
-          <div class="signup_info">
+      <div className="bg_img"></div>
+      <div className="outer">
+        <div className="inner">
+          <div className="signup_img"></div>
+          <div className="signup_info">
             <form action="/signup" method="post">
-              <div class="sign_info_details">
-                <h1 class="hd_name">
+              <div className="sign_info_details">
+                <h1 className="hd_name">
                   Home<span>Dine</span>
                 </h1>
-                <h2 class="get_srted">Get Started</h2>
-                <div class="sign_details">
+                <h2 className="get_srted">Get Started</h2>
+                <div className="wid">
+                  <button type="button" className="btn-tag google">
+                    <div className="btn-name">Continue with Google</div>
+                  </button>
+                  <br />
+                  <button type="button" className="btn-tag fb">
+                    <div className="btn-name ">Continue with Facebook</div>
+                  </button>
+                </div>
+                <p style={{ textAlign: "center", margin: "5px" }}>OR</p>
+                <div className="sign_details">
                   <Input
                     input_cls="sign_name"
                     input_label="Name"
@@ -35,7 +45,7 @@ function Signup() {
                     input_placeholder="Set your password"
                   />
 
-                  <div class="show_pass">
+                  <div className="show_pass">
                     <input type="checkbox" />
                     <label for="show_pass">Show Password</label>
                   </div>
@@ -46,9 +56,9 @@ function Signup() {
                     input_value="submit"
                   />
 
-                  <div class="have_an_acc">
+                  <div className="have_an_acc">
                     <p>
-                      Have An Acount?<a href="404.html">Login</a>
+                      Have An Account?<a href="404.html">Login</a>
                     </p>
                   </div>
                 </div>
