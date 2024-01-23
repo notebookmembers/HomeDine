@@ -50,7 +50,7 @@ a {
 
 .btn-tag {
   height: 35px;
-  width: 90%;
+  width: 95%;
   margin: 10px 0;
   border-radius: 5px;
   border: 1px solid black;
@@ -80,10 +80,6 @@ a {
 .sign_info_details .get_srted {
   font-size: 1.2rem;
   font-family: Palanquin;
-}
-
-.wid {
-  width: 100%;
 }
 
 .google {
@@ -147,7 +143,7 @@ a {
 }
 .have_an_acc p {
   font-family: Palanquin;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 .have_an_acc p a {

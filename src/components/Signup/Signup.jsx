@@ -15,15 +15,13 @@ function Signup() {
                   Home<span>Dine</span>
                 </h1>
                 <h2 className="get_srted">Get Started</h2>
-                <div className="wid">
-                  <button type="button" className="btn-tag google">
-                    <div className="btn-name">Continue with Google</div>
-                  </button>
-                  <br />
-                  <button type="button" className="btn-tag fb">
-                    <div className="btn-name ">Continue with Facebook</div>
-                  </button>
-                </div>
+                <button type="button" className="btn-tag google">
+                  <div className="btn-name">Continue with Google</div>
+                </button>
+                <br />
+                <button type="button" className="btn-tag fb">
+                  <div className="btn-name ">Continue with Facebook</div>
+                </button>
                 <p style={{ textAlign: "center", margin: "5px" }}>OR</p>
                 <div className="sign_details">
                   <Input
